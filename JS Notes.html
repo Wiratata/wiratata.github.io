@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiranata Website Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- TOP NAVIGATION PART -->
+    <div class="nav-container">
+        <div class="logo-container">
+            <h3 class="logoText">Wiranata</h3>
+            <h3 class="emailText" >wiranata.glitch@gmail.com</h3>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-list">
+                <li id="home-nav"><a href="Home Page.html">Home</a></li>
+                <li id="css-nav"><a href="CSS Notes.html">CSS Notes</a></li>
+                <li id="js-nav"><a href="JS Notes.html">JS Notes</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <div class="js-bg">
+        <div class="js-black-bg">
+        </div>
+        <div class="js-text-container">
+            <p class="js-about-text">
+                JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="title">
+        <h1>JavaScript</h1>
+        <h2>Cheat Sheet and Notes</h2>
+    </div>
+    
+    <div class="cheatsheet-container">
+
+        <div class="table-container">
+            <h3>Variables & Data Types</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">let x = 5;</td>
+                    <td class="table-notes">Declare a block-scoped variable</td>
+                </tr>
+                <tr>
+                    <td class="table-code">const y = "hello";</td>
+                    <td class="table-notes">Declare a constant variable</td>
+                </tr>
+                <tr>
+                    <td class="table-code">typeof x;</td>
+                    <td class="table-notes">Check the data type of a variable</td>
+                </tr>
+                <tr>
+                    <td class="table-code">Number, String, Boolean</td>
+                    <td class="table-notes">Common data types in JavaScript</td>
+                </tr>
+                <tr>
+                    <td class="table-code">null, undefined</td>
+                    <td class="table-notes">Special values representing "empty" or "not assigned"</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Operators</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">+</td>
+                    <td class="table-notes">Addition or string concatenation</td>
+                </tr>
+                <tr>
+                    <td class="table-code">===</td>
+                    <td class="table-notes">Strict equality comparison</td>
+                </tr>
+                <tr>
+                    <td class="table-code">!=</td>
+                    <td class="table-notes">Not equal</td>
+                </tr>
+                <tr>
+                    <td class="table-code">++ / --</td>
+                    <td class="table-notes">Increment / Decrement a value</td>
+                </tr>
+                <tr>
+                    <td class="table-code">+=</td>
+                    <td class="table-notes">Add and assign</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Control Structures</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">if (x > 5) { ... }</td>
+                    <td class="table-notes">Execute code if the condition is true</td>
+                </tr>
+                <tr>
+                    <td class="table-code">else { ... }</td>
+                    <td class="table-notes">Run this block if the if-condition is false</td>
+                </tr>
+                <tr>
+                    <td class="table-code">for (let i = 0; i &lt; 5; i++)</td>
+                    <td class="table-notes">Loop from 0 to 4</td>
+                </tr>
+                <tr>
+                    <td class="table-code">while (x &lt; 10)</td>
+                    <td class="table-notes">Repeat while the condition is true</td>
+                </tr>
+                <tr>
+                    <td class="table-code">switch (value) { case ... }</td>
+                    <td class="table-notes">Multiple condition checks</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Functions</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">function greet() { ... }</td>
+                    <td class="table-notes">Declare a function</td>
+                </tr>
+                <tr>
+                    <td class="table-code">greet();</td>
+                    <td class="table-notes">Call or invoke the function</td>
+                </tr>
+                <tr>
+                    <td class="table-code">return value;</td>
+                    <td class="table-notes">Return a value from a function</td>
+                </tr>
+                <tr>
+                    <td class="table-code">const add = (a, b) =&gt; a + b;</td>
+                    <td class="table-notes">Arrow function syntax</td>
+                </tr>
+                <tr>
+                    <td class="table-code">parameters & arguments</td>
+                    <td class="table-notes">Inputs passed into functions</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Array Methods</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">arr.push(4);</td>
+                    <td class="table-notes">Add item to the end of the array</td>
+                </tr>
+                <tr>
+                    <td class="table-code">arr.pop();</td>
+                    <td class="table-notes">Remove the last item</td>
+                </tr>
+                <tr>
+                    <td class="table-code">arr.length;</td>
+                    <td class="table-notes">Get the number of items</td>
+                </tr>
+                <tr>
+                    <td class="table-code">arr.map(fn);</td>
+                    <td class="table-notes">Create a new array by transforming each item</td>
+                </tr>
+                <tr>
+                    <td class="table-code">arr.includes(2);</td>
+                    <td class="table-notes">Check if an item exists in the array</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- CONTACT AND FOOTER -->
+    
+    <div class="contact-container">
+        <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/wiratata/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/wiratata/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@wiranataglitch8176" target="_blank">Youtube</a></li>
+        </ul>
+
+    </div>
+
+    <!-- BURGER NAVIGATION PART -->
+
+    <div class="off-container">
+        <div class="nav-container">
+            <div class="logo-container">
+                <h3 class="logoText">Wiranata</h3>
+                <h3 class="emailText" >wiranata.glitch@gmail.com</h3>
+            </div>
+
+        </div>
+        <ul class="nav-burger">
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="CSS Notes.html">CSS Notes</a></li>
+            <li><a href="JS Notes.html">JS Notes</a></li>
+        </ul>
+        <div class="circle"></div>
+
+    </div>
+
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <footer>© 2025 Wiranata</footer>
+</body>
+</html>

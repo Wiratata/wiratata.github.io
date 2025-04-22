@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiranata Website Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+    <!-- TOP NAVIGATION PART -->
+    <div class="nav-container">
+        <div class="logo-container">
+            <h3 class="logoText">Wiranata</h3>
+            <h3 class="emailText" >wiranata.glitch@gmail.com</h3>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-list">
+                <li id="home-nav"><a href="Home Page.html">Home</a></li>
+                <li id="css-nav"><a href="CSS Notes.html">CSS Notes</a></li>
+                <li id="js-nav"><a href="JS Notes.html">JS Notes</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- CONTENT HERE -->
+
+
+    <div class="css-bg">
+        <div class="css-black-bg">
+        </div>
+        <div class="css-text-container">
+            <p class="css-about-text">
+                Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML
+            </p>
+        </div>
+
+    </div>
+
+    <div class="title">
+        <h1>Cascading Style Sheets</h1>
+        <h2>Cheat Sheet and Notes</h2>
+    </div>
+
+    <div class="cheatsheet-container">
+        <div class="table-container">
+            <h3>Selectors</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">element</td>
+                    <td class="table-notes">Select elements of specific type</td>
+                </tr>
+                <tr>
+                    <td class="table-code">#id</td>
+                    <td class="table-notes">Select an element with a specific id</td>
+                </tr>
+                <tr>
+                    <td class="table-code">.class</td>
+                    <td class="table-notes">Select an element with a specific class</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3>Text properties</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">color: blue;</td>
+                    <td class="table-notes">Set the text color</td>
+                </tr>
+                <tr>
+                    <td class="table-code">#font-size: 10px;</td>
+                    <td class="table-notes">Set the font size</td>
+                </tr>
+                <tr>
+                    <td class="table-code">font-family: Arial;</td>
+                    <td class="table-notes">Set the font family</td>
+                </tr>
+                <tr>
+                    <td class="table-code">background-color: red;</td>
+                    <td class="table-notes">Set the background color</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3>Box Properties</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">margin: 10px;</td>
+                    <td class="table-notes">Set the outer spacing around an element</td>
+                </tr>
+                <tr>
+                    <td class="table-code">padding: 15px;</td>
+                    <td class="table-notes">Set the space between content and border</td>
+                </tr>
+                <tr>
+                    <td class="table-code">border: 1px solid black;</td>
+                    <td class="table-notes">Set the border style and color</td>
+                </tr>
+                <tr>
+                    <td class="table-code">width: 200px;</td>
+                    <td class="table-notes">Set the width of an element</td>
+                </tr>
+                <tr>
+                    <td class="table-code">height: 100px;</td>
+                    <td class="table-notes">Set the height of an element</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Display Properties</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">display: block;</td>
+                    <td class="table-notes">Element takes full width, starts on a new line</td>
+                </tr>
+                <tr>
+                    <td class="table-code">display: inline;</td>
+                    <td class="table-notes">Element flows within text, no new line</td>
+                </tr>
+                <tr>
+                    <td class="table-code">display: inline-block;</td>
+                    <td class="table-notes">Like inline, but allows width/height</td>
+                </tr>
+                <tr>
+                    <td class="table-code">display: flex;</td>
+                    <td class="table-notes">Turns container into a flexbox</td>
+                </tr>
+                <tr>
+                    <td class="table-code">display: none;</td>
+                    <td class="table-notes">Hide the element</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Positioning Properties</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">position: static;</td>
+                    <td class="table-notes">Default position (no special positioning)</td>
+                </tr>
+                <tr>
+                    <td class="table-code">position: relative;</td>
+                    <td class="table-notes">Position relative to its normal position</td>
+                </tr>
+                <tr>
+                    <td class="table-code">position: absolute;</td>
+                    <td class="table-notes">Position relative to the nearest positioned ancestor</td>
+                </tr>
+                <tr>
+                    <td class="table-code">position: fixed;</td>
+                    <td class="table-notes">Position relative to the viewport</td>
+                </tr>
+                <tr>
+                    <td class="table-code">z-index: 10;</td>
+                    <td class="table-notes">Set the stack order of elements</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="table-container">
+            <h3>Units</h3>
+            <table class="table-base">
+                <tr>
+                    <td class="table-code">px</td>
+                    <td class="table-notes">Pixels — fixed size units</td>
+                </tr>
+                <tr>
+                    <td class="table-code">%</td>
+                    <td class="table-notes">Percentage relative to parent</td>
+                </tr>
+                <tr>
+                    <td class="table-code">em</td>
+                    <td class="table-notes">Relative to the font-size of the element</td>
+                </tr>
+                <tr>
+                    <td class="table-code">rem</td>
+                    <td class="table-notes">Relative to the font-size of the root element</td>
+                </tr>
+                <tr>
+                    <td class="table-code">vh / vw</td>
+                    <td class="table-notes">Viewport height/width units</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <!-- CONTACT AND FOOTER -->
+    
+    <div class="contact-container">
+        <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/wiratata/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/wiratata/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@wiranataglitch8176" target="_blank">Youtube</a></li>
+        </ul>
+
+    </div>
+
+    <!-- BURGER NAVIGATION PART -->
+
+    <div class="off-container">
+        <div class="nav-container">
+            <div class="logo-container">
+                <h3 class="logoText">Wiranata</h3>
+                <h3 class="emailText" >wiranata.glitch@gmail.com</h3>
+            </div>
+
+        </div>
+        <ul class="nav-burger">
+            <li><a href="Home Page.html">Home</a></li>
+            <li><a href="CSS Notes.html">CSS Notes</a></li>
+            <li><a href="JS Notes.html">JS Notes</a></li>
+        </ul>
+        <div class="circle"></div>
+
+    </div>
+
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <footer>© 2025 Wiranata</footer>
+</body>
+</html>
