@@ -114,6 +114,8 @@ body {
 .about-text {
     width: 60vw;
     font-size: 3vmin;
+    line-height: 1.6;
+
 }
 
 .text-header-container h1 {
@@ -146,6 +148,7 @@ body {
     width: 80vw;
     margin: auto;
     font-size: 3vmin;
+    line-height: 1.6;
     color: #F8F8F8;
     text-align: center;
 }
@@ -414,6 +417,7 @@ footer {
     margin: auto;
     text-align: center;
     font-size: 4vmin;
+    line-height: 1.6;
     color:#F8F8F8;
 }
 
@@ -432,6 +436,7 @@ footer {
     margin: auto;
     text-align: center;
     font-size: 4vmin;
+    line-height: 1.6;
     color:#F8F8F8;
 }
 
@@ -490,6 +495,7 @@ footer {
 .table-code {
     width: 15vw;
     height: 2vw;
+    font-size: 2vmin;
     text-align: center;
     background-color: #AEAEAE;
     margin: 1vw;
@@ -498,6 +504,7 @@ footer {
 
 .table-notes {
     width: 35vw;
+    font-size: 2vmin;
     background-color: #F8F8F8;
     color: #161616;
     padding: 1vw;
