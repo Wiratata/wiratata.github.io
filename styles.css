@@ -183,6 +183,7 @@ body {
 
 .skills-title h1 {
     font-size: 5vw;
+    text-transform: uppercase;
 }
 
 .motion-container, .video-container, .dev-container, .team-container {
