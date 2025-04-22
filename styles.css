@@ -504,6 +504,8 @@ footer {
 }
 
 
+/* -----------------------SMALLER SIZE CSS----------------------- */
+
 @media (max-width: 850px){
     .nav-container {
         justify-content: flex-start;
