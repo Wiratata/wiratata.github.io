@@ -25,6 +25,7 @@ function handleHamMenuVisibility() {
     }
 }
 
+// handle visibility on scroll and resize
 window.addEventListener('scroll', handleHamMenuVisibility);
 window.addEventListener('resize', handleHamMenuVisibility);
 

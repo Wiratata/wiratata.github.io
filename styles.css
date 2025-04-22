@@ -110,6 +110,7 @@ body {
     width: 80vw;
     font-size: 3vmin;
     margin:0;
+    margin-top: 2vmin;
 }
 .about-text {
     width: 60vw;
